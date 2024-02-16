@@ -1,0 +1,129 @@
+.ai__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem;
+}
+
+.ai__navbar-links {
+  display: flex;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.ai__navbar-links_logo {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.ai__navbar-links_logo img {
+  width: 63px;
+  height: 16px;
+}
+
+.ai__navbar-links_container {
+  display: flex;
+}
+
+.ai__navbar_sign {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.ai__navbar-links_container p, .ai__navbar_sign p, .ai__navbar_menu p {
+  color: #fff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  line-height: 25px;
+  text-transform: capitalize;
+  margin: 0 1rem;
+  cursor: pointer;
+}
+
+.ai__navbar_sign button, .ai__navbar_menu-container button {
+  background-color: var(--color-button);
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-family: var(--font-family);
+  font-size: 16px;
+  line-height: 25px;
+  outline: none;
+  border: none;
+  font-weight: 500;
+}
+
+.ai__navbar_menu {
+  margin-left: 1rem;
+  display: none;
+  position: relative;
+}
+
+.ai__navbar_menu svg {
+  cursor: pointer;
+}
+
+.ai__navbar_menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+  background-color: var(--color-footer);
+  padding: 2rem;
+  position: absolute;
+  top: 40px;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.ai__navbar_menu-container p {
+  margin: 1rem 0;
+}
+
+.ai__navbar_menu-container-links-sign {
+  display: none;
+}
+
+@media screen and (max-width: 1050px) {
+  .ai__navbar-links_container {
+    display: none;
+  }
+
+  .ai__navbar_menu {
+    display: flex;
+  }
+
+  .ai__navbar-menu-container-links-sign {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .ai__navbar {
+    padding: 2rem 4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .ai__navbar {
+    padding: 2rem;
+  }
+
+  .ai__navbar_sign {
+    display: none;
+  }
+
+  .ai__navbar_menu-container {
+    top: 20px;
+  }
+
+  .ai__navbar-menu-container-links-sign {
+    display: block;
+  }
+}
