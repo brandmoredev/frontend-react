@@ -42,7 +42,7 @@
   cursor: pointer;
 }
 
-.ai__navbar_sign button, .ai__navbar_menu-container button {
+.ai__navbar_sign button, .ai__button-cta {
   background-color: var(--color-button);
   color: #fff;
   padding: 0.5rem 1rem;
