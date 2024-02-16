@@ -42,7 +42,7 @@ const Navbar = () => {
             <Menu />
             <div className="ai__navbar-menu-container-links-sign">
               <p>Sign in</p>
-              <button type='button'>Sign up</button>
+              <button type='button' className='ai__button-cta'>Sign up</button>
             </div>
           </div>
         </div>
