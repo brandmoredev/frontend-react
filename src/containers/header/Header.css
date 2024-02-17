@@ -104,6 +104,10 @@
 }
 
 @media screen and (max-width: 650px) {
+  .ai__header-content {
+    margin: 0 !important;
+  }
+
   .ai__header-content h1 {
     font-size: 32px;
     line-height: 40px;

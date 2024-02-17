@@ -1,0 +1,47 @@
+.ai__feature {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.ai__feature-title h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #ffffff;
+  position: relative;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  flex: 1;
+}
+
+.ai__feature-title div{
+  width: 38px;
+  height: 3px;
+  background: var(--gradient-bar);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 1rem;
+}
+
+.ai__feature-text {
+  flex: 1;
+  color: var(--color-text);
+  font-size: 16px;
+  line-height: 30px;
+}
+
+@media screen and (max-width: 650px) {
+  .ai__feature-title {
+    width: 100%;
+  }
+
+  .ai__feature-title h1 {
+    font-size: 26px;
+  }
+
+  .ai__feature-text {
+    font-size: 14px;
+  }
+}

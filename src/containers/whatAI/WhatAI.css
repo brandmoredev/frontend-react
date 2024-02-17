@@ -1,0 +1,56 @@
+.ai__whatAI {
+  background: linear-gradient(135deg, rgba(27, 120, 222, 1) 0%, rgba(20, 49, 94, 1) 10%, rgba(20, 49, 94, 1) 90%, rgba(27, 120, 222, 1) 100%);
+  padding: 2rem;
+  font-family: var(--font-family);
+}
+
+.ai__whatAI-feature {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai__whatAI-heading {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4rem 0 4rem;
+}
+
+.ai__whatAI-heading h1 {
+  font-size: 34px;
+  line-height: 45px;
+  font-weight: 800;
+  max-width: 510px;
+}
+
+.ai__whatAI-heading p {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-subtext);
+  cursor: pointer;
+}
+
+.ai__whatAI-features__container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+  gap: 2rem;
+}
+
+.ai__whatAI-features__container .ai__feature {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 650px) {
+  .ai__whatAI {
+    margin: 2rem;
+  }
+
+  .ai__whatAI-heading h1 {
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
