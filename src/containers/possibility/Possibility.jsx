@@ -3,8 +3,7 @@ import './Possibility.css';
 
 const Possibility = () => {
   return (
-    <div>
-      Possibility
+    <div className='ai__possibility section__padding'>
     </div>
   )
 }
