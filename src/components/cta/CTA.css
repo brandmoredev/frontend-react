@@ -8,10 +8,17 @@
   align-items: center;
   padding: 2rem;
   font-family: var(--font-family);
+  border-radius: 1rem;
 }
 
+.ai__cta-text p {
+  font-size: 12px;
+  color: #0E0E0E;
+}
 .ai__cta-text h4 {
   margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 800;
 }
 
 .ai__cta-button button {
