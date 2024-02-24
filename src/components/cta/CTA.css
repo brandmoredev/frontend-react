@@ -1,0 +1,41 @@
+.ai__cta {
+  background: rgb(174,103,250);
+  background: linear-gradient(90deg, rgba(174,103,250,1) 0%, rgba(244,152,103,1) 100%);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  font-family: var(--font-family);
+  border-radius: 1rem;
+}
+
+.ai__cta-text p {
+  font-size: 12px;
+  color: #0E0E0E;
+}
+.ai__cta-text h4 {
+  margin-top: 1rem;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.ai__cta-button button {
+  width: 100%;
+  font-weight: 18px;
+  font-weight: 700;
+  color: #fff;
+  background-color: #000;
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .ai__cta {
+    margin: 0 2rem;
+  }
+}
